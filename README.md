@@ -1,6 +1,7 @@
 # Configurable Sankey for Communia / Kennisland
 
-Sankey in action: <https://www.communia-association.org/juri-dsm-am-visualization/>
+Sankey used in the article for COMMUNIA: <https://www.communia-association.org/juri-dsm-am-visualization/>
+Large version of the sankey: <https://www.abitofdata.co/embed/communia/sankey-groups-interactive.html?Art=3&Art=4&Art=7-9>
 
 [COMMUNIA](http://communia-project.eu) advocates for policies that expand the public domain and increase access to and reuse of culture and knowledge. We helped them with visualizing amendments made in the European Parliament that pertain to copyright. 
 
