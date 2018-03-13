@@ -1,0 +1,189 @@
+@import url('//fonts.googleapis.com/css?family=PT+Sans:400,700');
+
+body {
+    padding-right: 20px;
+    /* min-width: 600px; */
+    max-width: 1200px;
+    margin: auto;
+    height: 100%;
+    font: 13px 'PT Sans', sans-serif;
+}
+
+#chart {
+    height: 500px;
+    font: 13px 'PT Sans', sans-serif;
+}
+
+.node rect {
+    fill-opacity: 1;
+    shape-rendering: crispEdges;
+    stroke-width: 0;
+}
+
+.node text {
+    /* text-shadow: 0 1px 0 #fff; */
+    font: 16px 'PT Sans', sans-serif;
+    /* font-weight: bold; */
+}
+
+.link {
+    fill: none;
+    stroke: #000;
+    stroke-opacity: .8;
+}
+
+.tooltip {
+    background-color: #f7f7f7;
+    padding: 3px 12px;
+    font: 12px 'PT Sans', sans-serif;
+    border: 0px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.tooltip_title {
+    font: 12px 'PT Sans', sans-serif;
+    font-weight: bold;
+    margin: 5px 0;
+    max-width: 300px;
+    word-wrap: normal;
+}
+
+.tooltip_body {
+    font: 12px 'PT Sans', sans-serif;
+    margin: 5px 0;
+    max-width: 220px;
+}
+
+.h1,
+h1,
+.h2,
+h2,
+.h3,
+h3,
+.h4,
+h4 {
+    font-family: 'PT Sans', sans-serif;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.caption {
+    margin-left: 10px;
+    font-size: 16px;
+    font-style: italic;
+    /* line-height: 24px; */
+}
+
+.form-item,
+form {
+    margin-bottom: 0;
+}
+
+#filter,
+#share {
+    margin-top: 10px;
+}
+
+#filter {
+    text-align: center;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 320px
+}
+
+td {
+    width: 160px
+}
+
+#embedDialog,
+#copyURL {
+    cursor: pointer;
+    cursor: hand;
+    font-family: "PT Sans", sans-serif;
+    /* text-decoration: underline; */
+    color: #313439;
+    font-size: 14px;
+}
+
+.hidden {
+    display: none;
+}
+
+.check {
+    /* top: 50%; */
+    /* left: 50%; */
+    display: inline;
+    /* margin: -30px 0 0 -30px; */
+    stroke-dasharray: 140;
+    stroke-dashoffset: 140;
+    -webkit-animation: fill 0.5s linear normal;
+    animation: fill 0.5s linear normal;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes fill {
+    from {
+        stroke-dashoffset: 140;
+    }
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes fill {
+    from {
+        stroke-dashoffset: 140;
+    }
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #share {
+        display: none;
+    }
+}
+
+.caption {
+    margin: auto;
+    margin-top: 10px;
+    font-size: 14px;
+
+}
+
+.logo {
+    width: 37px;
+    float: right;
+    margin-right: 30px;
+    /* vertical-align: middle */
+}
+.logo-caption, .logo-caption a {
+    float: right;
+    margin-right: -25px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #323232;
+    text-decoration: none;
+
+}
+
+
+@media only screen and (max-width: 500px) {
+    .logo, .logo-caption {
+        display: none;
+    }
+}
+h2 {
+    text-align: left;
+    font-weight: 700 !important;
+    font: 20px 'PT Sans', sans-serif;
+    color: #323232;
+
+}
